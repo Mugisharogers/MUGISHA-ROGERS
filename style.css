@@ -1,0 +1,82 @@
+.navbar{
+    background-color: aqua;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+.content{
+    text-align: center;
+    justify-content: space-around;
+    font-size: 50px;
+    font-weight: bold;
+    float: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.username{
+    color: blue;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    font-size: 20px;
+}
+img{
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content:space-around ;
+    padding-left: 15px;
+    margin-left: 25px;
+}
+body{
+    background-image: image-set(plan1.png);
+    background-color: burlywood;
+
+}
+select{
+    width: 40%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+input[type=text]{
+    width: 20%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=tel]{
+    width: 20%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=email]{
+    width: 20%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    width: 10%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: chartreuse;
+}
+form{
+    border: 5px solid greenyellow;
+    background-color:cornsilk;
+    background-image: url(plan2.png);
+    padding: 60px 40px 60px 90px;
+    margin: 100px 100px 150px 90px;
+}
+.boxer{
+    text-align:center ;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 17px;
+}
